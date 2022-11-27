@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson_2</title>
+    <style>
+        div{
+            background-color: cornflowerblue;
+            color: crimson;
+            margin: 40px;
+            padding: 100px;
+            display: flex;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            color: black;
+            padding: 10px;
+            margin: 5px;
+        }
+        a{
+            color: cyan;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ul>
+        {% for element in pagelist %}
+        <li><a href="http://127.0.0.1:8000/{{element}}">{{element}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+<!--    <div>-->
+<!--        {{ text }}-->
+<!--        <ul>-->
+<!--            <li><a href='http://127.0.0.1:8000/news'>NEWS</a></li>-->
+<!--            <li><a href='http://127.0.0.1:8000/management'>Management</a></li>-->
+<!--            <li><a href="http://127.0.0.1:8000/cityleaders">cityleaders</a></li>-->
+<!--            <li><a></a></li>-->
+
+<!--        </ul>-->
+<!--    </div>-->
+</body>
+</html>
