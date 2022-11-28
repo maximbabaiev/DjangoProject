@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson_3</title>
+</head>
+<body>
+<div>
+    <ul>
+        {% for url, elements in pagelist %}
+        <li><a href="http://127.0.0.1:8000/{{url}}">{{elements}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

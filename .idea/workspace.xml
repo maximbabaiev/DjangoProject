@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="" />
+    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,17 @@
       <option name="presentableId" value="Default" />
       <updated>1669564581967</updated>
       <workItem from="1669564583603" duration="41000" />
+      <workItem from="1669564674225" duration="644000" />
+      <workItem from="1669574887698" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD project">
+      <created>1669564709534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669564709534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -51,5 +63,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD project" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD project" />
   </component>
 </project>

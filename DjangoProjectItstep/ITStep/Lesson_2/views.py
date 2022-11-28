@@ -6,7 +6,9 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, "index.html", context={"text": 'hello world', 'pagelist': ['news', 'management', 'cityleaders', 'fact sabout the city', 'contactPhones']})
+    return render(request, "indexHistory.html", context={"text": 'hello world',
+                                                         'pagelist': ['news', 'management', 'cityleaders',
+                                                                      'fact sabout the city', 'contactPhones']})
 
 
 def news(request):
