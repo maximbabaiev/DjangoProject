@@ -40,7 +40,11 @@ INSTALLED_APPS = [
     'first_app',
     'Lesson_1',
     'Lesson_2',
-    'Lesson_3'
+    'Lesson_3',
+    'Lesson_4',
+    'Lesson_5_STAR_WARS',
+    'Lesson_6_writers',
+    'Lesson_7_library'
 ]
 
 MIDDLEWARE = [
