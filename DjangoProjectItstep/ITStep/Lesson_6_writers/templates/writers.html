@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>writers</title>
+</head>
+<body>
+<div>
+  {{writers.all}}
+  <ul>
+    {{% for url, element in writers %}}
+    <li><a href="http://127.0.0.1:8000/{{url}}">{{element}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+<div>
+  <ul>
+    {{% for element in top_books %}}
+    <li><a>{{element}}</a></li>
+        {% for el in element.book %}
+        <li><a>{{el}}</a></li>
+    {% endfor %}
+        {% endfor %}
+  </ul>
+</div>
+</body>
+</html>

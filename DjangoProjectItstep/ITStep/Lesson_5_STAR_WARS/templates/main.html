@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STAR_WARS</title>
+</head>
+<body>
+<br>
+<h1>Добро пожаловать во вселенную звездных войн!</h1>
+<div>
+    <ul>
+        {% for url, element in STAR_WARS_name %}
+        <li><a href="http://127.0.0.1:8000/{{url}}">{{element}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+</body>
+</html>

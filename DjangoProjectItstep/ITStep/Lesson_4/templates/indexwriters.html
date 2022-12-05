@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson_4</title>
+</head>
+<body>
+<div class="links">
+    <ul>
+        {% for element in lets_do_it %}
+        <li>Priority: {{element.priority}}</li>
+        <ul>
+            <li>Task: {{element.task}}</li>
+        </ul>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

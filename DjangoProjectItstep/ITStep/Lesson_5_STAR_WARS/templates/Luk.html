@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STAR_WARS</title>
+</head>
+<body>
+<br>
+<h1>Добро пожаловать во вселенную звездных войн!</h1>
+<div class="links">
+    <ul>
+        {% for element in STAR_WARS %}
+            <li>{{element.Description}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
