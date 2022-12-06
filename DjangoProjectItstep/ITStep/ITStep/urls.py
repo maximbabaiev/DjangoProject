@@ -23,6 +23,8 @@ urlpatterns = [
     # path('', include('Lesson_3.urls')),
     # path("", include("Lesson_4.urls"))
     # path('', include("Lesson_5_STAR_WARS.urls"))
-    path('', include("Lesson_6_writers.urls"))
+    # path('', include("Lesson_6_writers.urls"))
     # path('', include("Lesson_7_library.urls"))
+    # path('Lesson_8/', include('Lesson_8_Filters.urls'))
+    path("Lesson/", include("Lesson_8_DB.urls"))
 ]
