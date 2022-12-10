@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 300px;
+        }
+        li {
+            list-style: none;
+        }
+        div {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<div>
+    {% for el in img %}
+    <ul>
+        <li><img src="data:image/png;base64,{{ el.photo }}" alt="monitor"></li>
+        <p><a href="{{el.urlProduct}}">{{el.nameProduct}}</a></p>
+
+    </ul>
+    {% endfor %}
+</div>
+</body>
+</html>
