@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'Lesson_7_library',
     'Lesson_8_Filters',
     'Lesson_8_DB',
-    'Lesson_9_DB_image'
+    'Lesson_9_DB_image',
+    'Lesson_10_Models'
 ]
 
 MIDDLEWARE = [

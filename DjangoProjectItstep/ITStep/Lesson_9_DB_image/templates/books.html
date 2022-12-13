@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    div {
+      display: flex;
+    }
+    li {
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+<div>
+  {% for el in img %}
+  <ul>
+    <li><img src="data:image/png/jpg;base64, {{el.photo}}" alt="books"></li>
+      <p>{{el.nameBook}}</p>
+      <p>{{el.author}}</p>
+      <p>{{el.yearCreate}}</p>
+      <p>{{el.style}}</p>
+      <p>{{el.publishingHouse}}</p>
+      <p>{{el.availability}}</p>
+  </ul>
+  {% endfor %}
+</div>
+</body>
+</html>
