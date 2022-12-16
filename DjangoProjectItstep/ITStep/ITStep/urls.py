@@ -28,6 +28,6 @@ urlpatterns = [
     # path('Lesson_8/', include('Lesson_8_Filters.urls'))
     # path("Lesson/", include("Lesson_8_DB.urls"))
     # path('', include("Lesson_9_DB_image.urls")),
-    path('', include("Lesson_10_Models.urls"))
-
+    # path('', include("Lesson_10_Models.urls"))
+    path('', include("Lesson_11_Models.urls"))
 ]
