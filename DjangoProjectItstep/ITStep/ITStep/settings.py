@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'Lesson_8_DB',
     'Lesson_9_DB_image',
     'Lesson_10_Models',
-    'Lesson_11_Models'
+    'Lesson_11_Models',
+    'Lesson_12_Models_writers'
 ]
 
 MIDDLEWARE = [
@@ -67,7 +68,7 @@ ROOT_URLCONF = 'ITStep.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    img {
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    body {
+        background-color: crimson;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+</style>
+<body>
+<header>
+    <div>
+    {% for el in content %}
+        <ul>
+            <li><img src="data:image/jpg;base64, {{el.img_base64}}" alt="{{el.nameBook}}"></li>
+            <li>{{ el.nameBook }}</li>
+            <li>{{ el.author }}</li>
+            <li><a href="http://127.0.0.1:8000/books/{{el}}">Клик</a></li>
+            <li>{{ el.yearCreate }}</li>
+            {% if el.available == 1 %}
+            <li>Есть в наличии</li>
+            {% else %}
+            <li>Нет в наличии</li>
+            {% endif %}
+            <li>{{ el.style }}</li>
+        </ul>
+    {% endfor %}
+    </div>
+</header>
+</body>
+</html>

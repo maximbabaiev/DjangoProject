@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models" />
+    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models hospital">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/AdminP/PycharmProjects/Scraping/telebot_itstep"
+    "last_opened_file_path": "C:/Users/AdminP/PycharmProjects/DJPRJ/DjangoProject/DjangoProjectItstep"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +50,8 @@
       <workItem from="1670701731484" duration="682000" />
       <workItem from="1670750713003" duration="1164000" />
       <workItem from="1670928127478" duration="725000" />
+      <workItem from="1671210891432" duration="630000" />
+      <workItem from="1671293008743" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="ADD project">
       <created>1669564709534</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670928154040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ADD Models hospital">
+      <created>1671210924643</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671210924643</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +140,7 @@
     <MESSAGE value="ADD DB" />
     <MESSAGE value="ADD DB_image" />
     <MESSAGE value="ADD Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Models" />
+    <MESSAGE value="ADD Models hospital" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Models hospital" />
   </component>
 </project>
