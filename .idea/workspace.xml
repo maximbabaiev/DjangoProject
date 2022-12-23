@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models hospital">
+    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models writers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/AdminP/PycharmProjects/DJPRJ/DjangoProject/DjangoProjectItstep"
+    "last_opened_file_path": "C:/Users/AdminP/PycharmProjects/Scraping"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +52,8 @@
       <workItem from="1670928127478" duration="725000" />
       <workItem from="1671210891432" duration="630000" />
       <workItem from="1671293008743" duration="43000" />
+      <workItem from="1671303485494" duration="202000" />
+      <workItem from="1671392487464" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="ADD project">
       <created>1669564709534</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671210924643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ADD Models writers">
+      <created>1671303505934</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671303505934</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="ADD DB_image" />
     <MESSAGE value="ADD Models" />
     <MESSAGE value="ADD Models hospital" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Models hospital" />
+    <MESSAGE value="ADD Models writers" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Models writers" />
   </component>
 </project>

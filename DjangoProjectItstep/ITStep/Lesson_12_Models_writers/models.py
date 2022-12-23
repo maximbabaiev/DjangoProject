@@ -4,6 +4,13 @@ from django.core.validators import MaxLengthValidator, MinLengthValidator, Regex
 
 
 # Create your models here.
+class Categorie(models.Model):
+    name = models.CharField(max_length=30, unique=True)
+
+    def __str__(self):
+        return f"{self.name}"
+
+
 
 class Book(models.Model):
     nameBook = models.CharField(max_length=100)
@@ -13,13 +20,7 @@ class Book(models.Model):
     available = models.BooleanField(default=True)
     img = models.ImageField(upload_to="images/")
     img_base64 = models.CharField(max_length=200000, blank=True)
-    style = models.CharField(max_length=100, choices=(
-        (
-            "Фэнтези", "Фэнтези"
-        ), (
-            "Детективы", "Детективы"
-        )
-    ))
+    style = models.ForeignKey(Categorie, on_delete=models.SET_NULL, null=True)
 
     def save(self, *args, **kwargs):
         self.img_base64 = base64.b64encode(self.img.read()).decode("utf-8")

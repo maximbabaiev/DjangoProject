@@ -5,3 +5,4 @@ from Lesson_12_Models_writers.models import *
 
 
 admin.site.register(Book)
+admin.site.register(Categorie)

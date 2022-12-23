@@ -3,5 +3,6 @@ from Lesson_12_Models_writers.views import *
 
 
 urlpatterns = [
-    path("books/", books)
+    path("books/", books),
+    path("books/<str:categorie>", books_filter)
 ]

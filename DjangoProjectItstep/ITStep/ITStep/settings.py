@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'Lesson_9_DB_image',
     'Lesson_10_Models',
     'Lesson_11_Models',
-    'Lesson_12_Models_writers'
+    'Lesson_12_Models_writers',
+    'Lesson_13_Model_CSV'
 ]
 
 MIDDLEWARE = [
