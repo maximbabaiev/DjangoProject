@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models writers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="44a32f85-5b11-40e2-92f7-13e744c55a08" name="Changes" comment="ADD Models writers filter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +18,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/AdminP/PycharmProjects/Scraping"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AdminP/PycharmProjects/Scraping&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +52,7 @@
       <workItem from="1671293008743" duration="43000" />
       <workItem from="1671303485494" duration="202000" />
       <workItem from="1671392487464" duration="113000" />
+      <workItem from="1671783918901" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="ADD project">
       <created>1669564709534</created>
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671303505934</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ADD Models writers filter">
+      <created>1671783939345</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671783939345</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +157,7 @@
     <MESSAGE value="ADD Models" />
     <MESSAGE value="ADD Models hospital" />
     <MESSAGE value="ADD Models writers" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Models writers" />
+    <MESSAGE value="ADD Models writers filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Models writers filter" />
   </component>
 </project>
